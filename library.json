@@ -14,11 +14,18 @@
       "maintainer": "true"
     }
   ],
-  "dependencies": {
-    "name": "Adafruit SSD1306@2.1.0",
-    "authors": "Adafruit",
-    "frameworks": "arduino"
-  },
+  "dependencies": [
+    {
+      "name": "Adafruit SSD1306",
+      "authors": "Adafruit",
+      "frameworks": "arduino"
+    },
+    {
+      "name": "Adafruit GFX Library",
+      "authors": "Adafruit",
+      "frameworks": "arduino"
+    }
+  ],
   "version": "0.1",
   "frameworks": "arduino",
   "platforms": "*"
