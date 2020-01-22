@@ -1,27 +1,24 @@
 {
-  "name": "display",
+  "name": "Ssd1306Display",
   "keywords": "Adafruit, SSD, display",
   "description": "yet another Adafruit_SSD wrapper",
-  "homepage": "https://github.com/yapiolibs/display",
+  "homepage": "https://github.com/yapiolibs/ssd1306display",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yapiolibs/display.git"
+    "url": "https://github.com/yapiolibs/ssd1306display.git"
   },
   "authors": [
     {
-        "name": "Raoul Rubien",
-        "url": "https://github.com/rubienr",
-        "maintainer" : "true"
+      "name": "Raoul Rubien",
+      "url": "https://github.com/rubienr",
+      "maintainer": "true"
     }
   ],
-  
-  "dependencies":
-  {
+  "dependencies": {
     "name": "Adafruit SSD1306@2.1.0",
     "authors": "Adafruit",
     "frameworks": "arduino"
   },
-  
   "version": "0.1",
   "frameworks": "arduino",
   "platforms": "*"
