@@ -17,7 +17,6 @@
   "dependencies": [
     {
       "name": "Adafruit SSD1306 Wemos Mini OLED",
-      "authors": "Adafruit",
       "frameworks": "arduino"
     },
     {
