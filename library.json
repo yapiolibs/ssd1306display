@@ -1,7 +1,7 @@
 {
-  "name": "Ssd1306Display",
-  "keywords": "Adafruit, SSD, display",
-  "description": "yet another Adafruit_SSD wrapper",
+  "name": "Ssd1306DisplayD1MiniCape",
+  "keywords": "Adafruit, SSD1306, Wemos D1 Mini OLED cape 64x48, display",
+  "description": "yet another Adafruit_SSD wrapper for Wemos D1 Mini OLED cape 64x48",
   "homepage": "https://github.com/yapiolibs/ssd1306display",
   "repository": {
     "type": "git",
