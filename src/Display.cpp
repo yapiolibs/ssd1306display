@@ -69,6 +69,15 @@ Dimension Display::getCharDimension(char c)
     return Dimension{width, height};
 }
 
+void Display::off()
+{
+    ssd1306_command(SSD1306_DISPLAYOFF);
+}
+
+void Display::on()
+{
+    ssd1306_command(SSD1306_DISPLAYON);
+}
 
 
 

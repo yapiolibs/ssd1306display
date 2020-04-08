@@ -57,6 +57,10 @@ public:
         Adafruit_SSD1306::drawBitmap(x, y, T::bitmap, T::width, T::height, T::color);
     }
 
+    void off();
+
+    void on();
+
 protected:
     Dimension char_dimension{0, 0};
     Dimension status_bar_dimension{0, 0};
